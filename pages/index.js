@@ -50,6 +50,7 @@ const Home = (props) => {
                     alt="image"
                     src="/photo-1616860744588-fcc95e7cc721-400w.webp"
                     data-aos="fade-left"
+                    loading="eager"
                     className="home-image"
                   />
                 </div>
@@ -59,6 +60,7 @@ const Home = (props) => {
                       alt="image"
                       src="/photo-1601084213767-04a4dba01dbb-400w.webp"
                       data-aos="fade-up"
+                      loading="eager"
                       className="home-image1"
                     />
                   </div>
@@ -66,6 +68,7 @@ const Home = (props) => {
                     alt="image"
                     src="/photo-1519999933293-fb5e79c3e9b3-400w.webp"
                     data-aos="fade-down"
+                    loading="eager"
                     className="home-image2"
                   />
                 </div>
@@ -75,6 +78,7 @@ const Home = (props) => {
                       alt="image"
                       src="/photo-1620641621506-5e8cc7cb5656-800w.webp"
                       data-aos="fade-right"
+                      loading="eager"
                       className="home-image3"
                     />
                   </div>
@@ -84,6 +88,7 @@ const Home = (props) => {
                         alt="image"
                         src="/photo-1623189615085-11a59bd4fbd2-800w.webp"
                         data-aos="fade-up"
+                        loading="eager"
                         className="home-image4"
                       />
                     </div>
@@ -92,6 +97,7 @@ const Home = (props) => {
                         alt="image"
                         src="/photo-1525570665650-76bb26af503d-800w.webp"
                         data-aos="fade-right"
+                        loading="eager"
                         className="home-image5"
                       />
                     </div>
@@ -503,8 +509,8 @@ const Home = (props) => {
             font-style: normal;
             text-align: center;
             font-weight: 900;
-            padding-top: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-unit);
+            padding-top: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-primary-yellow);
           }
           .home-service {
