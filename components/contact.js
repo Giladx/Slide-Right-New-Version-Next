@@ -11,7 +11,7 @@ const Contact = (props) => {
           <br></br>
         </span>
         <span className="contact-text3">{props.text}</span>
-        <a href="tel:+17862514754" className="contact-link">
+        <a href="tel:+17867823739" className="contact-link">
           {props.text1}
         </a>
       </nav>
@@ -68,7 +68,7 @@ const Contact = (props) => {
 
 Contact.defaultProps = {
   rootClassName: '',
-  text1: '+1-786-2514-754',
+  text1: '+1-786-782-3739',
   text: '2157 Village ViewDrive, Old Fort Myers Florida 33901',
 }
 

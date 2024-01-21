@@ -15,7 +15,7 @@ const Corosel1 = (props) => {
                 <Card
                   button="Technicians"
                   button1="Certified Technicians"
-                  imageSrc="https://images.unsplash.com/photo-1521898284481-a5ec348cb555?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxUZWNobmljaWFucyUyMHRlYW18ZW58MHx8fHwxNjczNzk2MTc5&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://images.unsplash.com/photo-1521898284481-a5ec348cb555?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxUZWNobmljaWFucyUyMHRlYW18ZW58MHx8fHwxNjczNzk2MTc5&amp;ixlib=rb-4.0.3&amp;h=200"
                   rootClassName="card-root-class-name6"
                   className="corosel-1-card-1"
                 ></Card>
@@ -26,7 +26,7 @@ const Corosel1 = (props) => {
                 <Card
                   button="Replacement"
                   button1="Rollers Replacement"
-                  imageSrc="https://images.unsplash.com/photo-1611818827790-b0767482076a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDl8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3Mzc5NjA4Nw&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://images.unsplash.com/photo-1611818827790-b0767482076a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDl8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3Mzc5NjA4Nw&amp;ixlib=rb-4.0.3&amp;h=200"
                   rootClassName="card-root-class-name7"
                   className="corosel-1-card-2"
                 ></Card>
@@ -37,7 +37,7 @@ const Corosel1 = (props) => {
                 <Card
                   button="Repair"
                   button1="Sliding Screen Door Repair"
-                  imageSrc="https://images.unsplash.com/photo-1623161551727-54c918bdcec1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYwfHx0b29sc3xlbnwwfHx8fDE2NzM3OTYyNDU&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://images.unsplash.com/photo-1623161551727-54c918bdcec1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYwfHx0b29sc3xlbnwwfHx8fDE2NzM3OTYyNDU&amp;ixlib=rb-4.0.3&amp;h=200"
                   rootClassName="card-root-class-name8"
                   className="corosel-1-card-3"
                 ></Card>
@@ -48,7 +48,7 @@ const Corosel1 = (props) => {
                 <Card
                   button="Replacement"
                   button1="Glass Replacement"
-                  imageSrc="https://images.unsplash.com/photo-1600862038484-9281bdfb372a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzM3OTYwODc&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://images.unsplash.com/photo-1600862038484-9281bdfb372a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzM3OTYwODc&amp;ixlib=rb-4.0.3&amp;h=200"
                   rootClassName="card-root-class-name9"
                   className="corosel-1-card-4"
                 ></Card>
@@ -59,7 +59,7 @@ const Corosel1 = (props) => {
                 <Card
                   button="Replacement"
                   button1="Door Handle Repair / Replacement"
-                  imageSrc="https://images.unsplash.com/photo-1534430198509-8a3091682aa8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUxfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzM3OTYzMjQ&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://images.unsplash.com/photo-1534430198509-8a3091682aa8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUxfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzM3OTYzMjQ&amp;ixlib=rb-4.0.3&amp;h=200"
                   rootClassName="card-root-class-name10"
                   className="corosel-1-card-5"
                 ></Card>
@@ -70,7 +70,7 @@ const Corosel1 = (props) => {
                 <Card
                   button="Repair"
                   button1="Sliding Glass Door Repair"
-                  imageSrc="https://images.unsplash.com/photo-1611288865035-d953889ce0aa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExMXx8dG9vbHN8ZW58MHx8fHwxNjczNzk2NDM0&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://images.unsplash.com/photo-1611288865035-d953889ce0aa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExMXx8dG9vbHN8ZW58MHx8fHwxNjczNzk2NDM0&amp;ixlib=rb-4.0.3&amp;h=200"
                   rootClassName="card-root-class-name11"
                   className="corosel-1-card-6"
                 ></Card>

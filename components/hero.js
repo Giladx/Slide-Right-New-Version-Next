@@ -31,8 +31,8 @@ const Hero = (props) => {
           <div className="hero-gallery">
             <div className="hero-container">
               <img
-                alt={props.imageAlt}
-                src={props.imageSrc}
+                alt={props.image_alt}
+                src={props.image_src}
                 data-aos="fade-left"
                 className="hero-image"
               />
@@ -40,15 +40,15 @@ const Hero = (props) => {
             <div className="hero-container1">
               <div className="hero-container2">
                 <img
-                  alt={props.imageAlt2}
-                  src={props.imageSrc2}
+                  alt={props.image_alt2}
+                  src={props.image_src2}
                   data-aos="fade-up"
                   className="hero-image1"
                 />
               </div>
               <img
-                alt={props.imageAlt1}
-                src={props.imageSrc1}
+                alt={props.image_alt1}
+                src={props.image_src1}
                 data-aos="fade-down"
                 className="hero-image2"
               />
@@ -56,8 +56,8 @@ const Hero = (props) => {
             <div className="hero-container3">
               <div className="hero-container4">
                 <img
-                  alt={props.imageAlt3}
-                  src={props.imageSrc3}
+                  alt={props.image_alt3}
+                  src={props.image_src3}
                   data-aos="fade-right"
                   className="hero-image3"
                 />
@@ -65,16 +65,16 @@ const Hero = (props) => {
               <div className="hero-container5">
                 <div className="hero-container6">
                   <img
-                    alt={props.imageAlt4}
-                    src={props.imageSrc4}
+                    alt={props.image_alt4}
+                    src={props.image_src4}
                     data-aos="fade-up"
                     className="hero-image4"
                   />
                 </div>
                 <div className="hero-container7">
                   <img
-                    alt={props.imageAlt5}
-                    src={props.imageSrc5}
+                    alt={props.image_alt5}
+                    src={props.image_src5}
                     data-aos="fade-right"
                     className="hero-image5"
                   />
@@ -453,43 +453,43 @@ const Hero = (props) => {
 }
 
 Hero.defaultProps = {
-  imageSrc:
+  image_src:
     'https://images.unsplash.com/photo-1616860744588-fcc95e7cc721?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3MzY1NTQ2Mw&ixlib=rb-4.0.3&w=400',
-  imageAlt: 'image',
-  imageSrc1:
+  image_alt: 'image',
+  image_src1:
     'https://images.unsplash.com/photo-1601084213767-04a4dba01dbb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzM2NTU0NjM&ixlib=rb-4.0.3&w=400',
-  imageSrc3:
+  image_src3:
     'https://images.unsplash.com/photo-1620641621506-5e8cc7cb5656?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3MzY1NTQ2Mw&ixlib=rb-4.0.3&w=700',
-  imageAlt1: 'image',
-  imageSrc5:
+  image_alt1: 'image',
+  image_src5:
     'https://images.unsplash.com/photo-1525570665650-76bb26af503d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3MzY1NTQ2Mw&ixlib=rb-4.0.3&w=400',
-  imageSrc2:
+  image_src2:
     'https://images.unsplash.com/photo-1623189615085-11a59bd4fbd2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzM2NTU0NjM&ixlib=rb-4.0.3&w=400',
-  imageSrc4:
+  image_src4:
     'https://images.unsplash.com/photo-1519999933293-fb5e79c3e9b3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE5fHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzM2NTU0NjM&ixlib=rb-4.0.3&w=400',
-  imageAlt5: 'image',
-  imageAlt3: 'image',
+  image_alt5: 'image',
+  image_alt3: 'image',
   heading: 'with years of experience',
   text: 'installing, replacing and repairing',
-  imageAlt2: 'image',
-  imageAlt4: 'image',
+  image_alt2: 'image',
+  image_alt4: 'image',
 }
 
 Hero.propTypes = {
-  imageSrc: PropTypes.string,
-  imageAlt: PropTypes.string,
-  imageSrc1: PropTypes.string,
-  imageSrc3: PropTypes.string,
-  imageAlt1: PropTypes.string,
-  imageSrc5: PropTypes.string,
-  imageSrc2: PropTypes.string,
-  imageSrc4: PropTypes.string,
-  imageAlt5: PropTypes.string,
-  imageAlt3: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
+  image_src1: PropTypes.string,
+  image_src3: PropTypes.string,
+  image_alt1: PropTypes.string,
+  image_src5: PropTypes.string,
+  image_src2: PropTypes.string,
+  image_src4: PropTypes.string,
+  image_alt5: PropTypes.string,
+  image_alt3: PropTypes.string,
   heading: PropTypes.string,
   text: PropTypes.string,
-  imageAlt2: PropTypes.string,
-  imageAlt4: PropTypes.string,
+  image_alt2: PropTypes.string,
+  image_alt4: PropTypes.string,
 }
 
 export default Hero

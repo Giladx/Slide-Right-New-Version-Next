@@ -49,8 +49,8 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/photo-1616860744588-fcc95e7cc721-400w.webp"
-                    data-aos="fade-left"
                     loading="eager"
+                    data-aos="fade-left"
                     className="home-image"
                   />
                 </div>
@@ -59,16 +59,16 @@ const Home = (props) => {
                     <img
                       alt="image"
                       src="/photo-1601084213767-04a4dba01dbb-400w.webp"
-                      data-aos="fade-up"
                       loading="eager"
+                      data-aos="fade-up"
                       className="home-image1"
                     />
                   </div>
                   <img
                     alt="image"
                     src="/photo-1519999933293-fb5e79c3e9b3-400w.webp"
-                    data-aos="fade-down"
                     loading="eager"
+                    data-aos="fade-down"
                     className="home-image2"
                   />
                 </div>
@@ -77,8 +77,8 @@ const Home = (props) => {
                     <img
                       alt="image"
                       src="/photo-1620641621506-5e8cc7cb5656-800w.webp"
-                      data-aos="fade-right"
                       loading="eager"
+                      data-aos="fade-right"
                       className="home-image3"
                     />
                   </div>
@@ -87,8 +87,8 @@ const Home = (props) => {
                       <img
                         alt="image"
                         src="/photo-1623189615085-11a59bd4fbd2-800w.webp"
-                        data-aos="fade-up"
                         loading="eager"
+                        data-aos="fade-up"
                         className="home-image4"
                       />
                     </div>
@@ -96,8 +96,8 @@ const Home = (props) => {
                       <img
                         alt="image"
                         src="/photo-1525570665650-76bb26af503d-800w.webp"
-                        data-aos="fade-right"
                         loading="eager"
+                        data-aos="fade-right"
                         className="home-image5"
                       />
                     </div>
@@ -136,11 +136,11 @@ const Home = (props) => {
             assured that the installation of your new sliding door or any other
             replacement parts you may need has been handled properly.
           </span>
-          <a href="tel:+17862514754" data-aos="fade" className="home-link">
+          <a href="tel:+17867823739" data-aos="fade" className="home-link">
             <span className="home-text15">
               <span>CALL NOW!</span>
               <br></br>
-              <span>786-251-4754</span>
+              <span>786-782-3739</span>
               <br></br>
             </span>
           </a>
@@ -297,8 +297,8 @@ const Home = (props) => {
             </h1>
             <div data-aos="fade" className="home-container17">
               <span className="home-text48">CALL NOW</span>
-              <a href="tel:7862514754" className="home-link1">
-                786-251-4754
+              <a href="tel:+17867823739" className="home-link1">
+                786-782-3739
               </a>
             </div>
           </div>

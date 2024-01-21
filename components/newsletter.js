@@ -10,7 +10,7 @@ const Newsletter = (props) => {
           <span className="newsletter-text">{props.text}</span>
           <input
             type="text"
-            placeholder={props.textinputPlaceholder}
+            placeholder={props.textinput_placeholder}
             className="newsletter-textinput input"
           />
           <button name="join the club" className="newsletter-button button">
@@ -69,14 +69,14 @@ const Newsletter = (props) => {
 
 Newsletter.defaultProps = {
   button: 'Subscribe',
-  textinputPlaceholder: 'Enter Your Email',
+  textinput_placeholder: 'Enter Your Email',
   text: 'Subscribe to our newsletter',
   rootClassName: '',
 }
 
 Newsletter.propTypes = {
   button: PropTypes.string,
-  textinputPlaceholder: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
   text: PropTypes.string,
   rootClassName: PropTypes.string,
 }

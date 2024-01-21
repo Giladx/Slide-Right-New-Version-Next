@@ -11,8 +11,8 @@ const Card = (props) => {
         className={`card-card item ${props.rootClassName} `}
       >
         <img
-          alt={props.imageAlt}
-          src={props.imageSrc}
+          alt={props.image_alt}
+          src={props.image_src}
           loading="lazy"
           className="card-image"
         />
@@ -704,19 +704,19 @@ const Card = (props) => {
 }
 
 Card.defaultProps = {
-  imageAlt: 'image',
+  image_alt: 'image',
   button1: 'Door Handle Repair / Replacement',
   button: 'Free',
-  imageSrc:
+  image_src:
     'https://images.unsplash.com/photo-1517984922331-8dbaa8ffa9c1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI4fHxmcmVlfGVufDB8fHx8MTY3MzczMzkyMQ&ixlib=rb-4.0.3&w=200',
   rootClassName: '',
 }
 
 Card.propTypes = {
-  imageAlt: PropTypes.string,
+  image_alt: PropTypes.string,
   button1: PropTypes.string,
   button: PropTypes.string,
-  imageSrc: PropTypes.string,
+  image_src: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
