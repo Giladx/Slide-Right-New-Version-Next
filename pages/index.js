@@ -76,9 +76,11 @@ const Home = (props) => {
                   <div className="home-container06">
                     <img
                       alt="image"
+                      sizes="(min-width: 768px) 800px, 480px"
                       src="/photo-1620641621506-5e8cc7cb5656-800w.webp"
                       loading="eager"
                       data-aos="fade-right"
+                      srcSet="/photo-1620641621506-5e8cc7cb5656-800w.webp 800w, /photo-1620641621506-5e8cc7cb5656-mobile.webp 480w"
                       className="home-image3"
                     />
                   </div>
@@ -86,18 +88,22 @@ const Home = (props) => {
                     <div className="home-container08">
                       <img
                         alt="image"
+                        sizes="(min-width: 768px) 800px, 480px"
                         src="/photo-1623189615085-11a59bd4fbd2-800w.webp"
                         loading="eager"
                         data-aos="fade-up"
+                        srcSet="/photo-1623189615085-11a59bd4fbd2-800w.webp 800w, /photo-1623189615085-11a59bd4fbd2-mobile.webp 480w"
                         className="home-image4"
                       />
                     </div>
                     <div className="home-container09">
                       <img
                         alt="image"
+                        sizes="(min-width: 768px) 800px, 480px"
                         src="/photo-1525570665650-76bb26af503d-800w.webp"
                         loading="eager"
                         data-aos="fade-right"
+                        srcSet="/photo-1525570665650-76bb26af503d-800w.webp 800w, /photo-1525570665650-76bb26af503d-mobile.webp 480w"
                         className="home-image5"
                       />
                     </div>
@@ -235,8 +241,10 @@ const Home = (props) => {
             <div className="home-container10">
               <img
                 alt="image"
-                src="/rectangle%20109-1400w.png"
+                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                src="/rectangle%20109-1400w.webp"
                 data-aos="fade-in"
+                srcSet="/rectangle%20109-1400w.webp 1200w, /rectangle%20109-tablet.webp 800w, /rectangle%20109-mobile.webp 480w"
                 className="home-image6"
               />
             </div>

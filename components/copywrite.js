@@ -10,14 +10,14 @@ const Copywrite = (props) => {
         <Link href="/">
           <a className="copywrite-link">
             <img
-              alt={props.image_alt}
-              src={props.image_src}
+              alt={props.imageAlt}
+              src={props.imageSrc}
               className="copywrite-image"
             />
           </a>
         </Link>
         <a
-          href={props.link_text}
+          href={props.linkText}
           target="_blank"
           rel="noreferrer noopener"
           className="copywrite-link1"
@@ -128,18 +128,18 @@ const Copywrite = (props) => {
 
 Copywrite.defaultProps = {
   rootClassName: '',
-  link_text: 'https://011.ninja',
-  image_alt: 'image',
+  linkText: 'https://011.ninja',
+  imageAlt: 'image',
   text: 'All rights received @ Slide Right  | </un> Coded by 011.ninja ',
-  image_src: '/logo-1500h.png',
+  imageSrc: '/logo-1500h.webp',
 }
 
 Copywrite.propTypes = {
   rootClassName: PropTypes.string,
-  link_text: PropTypes.string,
-  image_alt: PropTypes.string,
+  linkText: PropTypes.string,
+  imageAlt: PropTypes.string,
   text: PropTypes.string,
-  image_src: PropTypes.string,
+  imageSrc: PropTypes.string,
 }
 
 export default Copywrite

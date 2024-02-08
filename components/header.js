@@ -11,8 +11,10 @@ const Header = (props) => {
           <Link href="/">
             <a className="header-link">
               <img
-                alt={props.Logo_alt}
-                src="/logo-1500h.png"
+                alt={props.logoAlt}
+                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                src="/logo-1500h.webp"
+                srcSet="/logo-1500h.webp 1200w, /logo-tablet.webp 800w, /logo-mobile.webp 480w"
                 className="header-logo"
               />
             </a>
@@ -47,7 +49,7 @@ const Header = (props) => {
               name="call us"
               className="header-call-now1 button"
             >
-              {props.Callnow1}
+              {props.callnow1}
             </a>
           </div>
           <div data-thq="thq-burger-menu" className="header-burger-menu">
@@ -65,8 +67,10 @@ const Header = (props) => {
                 <Link href="/">
                   <a className="header-link05">
                     <img
-                      alt={props.image_alt}
-                      src="/logo-1500h.png"
+                      alt={props.imageAlt}
+                      sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                      src="/logo-1500h.webp"
+                      srcSet="/logo-1500h.webp 1200w, /logo-tablet.webp 800w, /logo-mobile.webp 480w"
                       className="header-image"
                     />
                   </a>
@@ -97,7 +101,7 @@ const Header = (props) => {
               </nav>
               <div className="header-container1">
                 <a href="tel:7862514754" className="header-call-now button">
-                  {props.Call12}
+                  {props.call12}
                 </a>
               </div>
             </div>
@@ -470,16 +474,16 @@ Header.defaultProps = {
   text: 'About',
   text61: 'Data',
   rootClassName: '',
-  image_src: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
+  imageSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
   text6: 'Contact',
-  Callnow1: '786-782-3739',
-  image_alt: 'image',
-  Logo_alt: 'logo',
+  callnow1: '786-782-3739',
+  imageAlt: 'image',
+  logoAlt: 'logo',
   text5: 'About',
-  Call12: '786-2514-754',
+  call12: '786-2514-754',
   text7: 'Privacy Policy',
   text2: 'Privacy Policy',
-  Logo_src: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
+  logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
 }
 
 Header.propTypes = {
@@ -488,16 +492,16 @@ Header.propTypes = {
   text: PropTypes.string,
   text61: PropTypes.string,
   rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
+  imageSrc: PropTypes.string,
   text6: PropTypes.string,
-  Callnow1: PropTypes.string,
-  image_alt: PropTypes.string,
-  Logo_alt: PropTypes.string,
+  callnow1: PropTypes.string,
+  imageAlt: PropTypes.string,
+  logoAlt: PropTypes.string,
   text5: PropTypes.string,
-  Call12: PropTypes.string,
+  call12: PropTypes.string,
   text7: PropTypes.string,
   text2: PropTypes.string,
-  Logo_src: PropTypes.string,
+  logoSrc: PropTypes.string,
 }
 
 export default Header

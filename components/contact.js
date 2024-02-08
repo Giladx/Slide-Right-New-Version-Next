@@ -69,7 +69,7 @@ const Contact = (props) => {
 Contact.defaultProps = {
   rootClassName: '',
   text1: '+1-786-782-3739',
-  text: '2157 Village ViewDrive, Old Fort Myers Florida 33901',
+  text: '1915 N 39th Ave Hollywood, FL  33021 United States',
 }
 
 Contact.propTypes = {
