@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
 
-import Header from '../components/header'
 import ScrollCode from '../components/scroll-code'
 
 const ContactForm = (props) => {
@@ -26,7 +25,6 @@ const ContactForm = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/7f5c1ac9-3363-4b83-a9f4-e49e32493f11/172d04ad-cc77-433d-bf17-c45927f084b9?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <Header rootClassName="header-root-class-name6"></Header>
         <ScrollCode rootClassName="scroll-code-root-class-name3"></ScrollCode>
         <div className="contact-form-container1">
           <div className="contact-form-container2">
