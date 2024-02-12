@@ -329,6 +329,9 @@ const Header = (props) => {
           .header-root-class-name5 {
             align-self: center;
           }
+          .header-root-class-name6 {
+            align-self: center;
+          }
           @media (max-width: 1200px) {
             .header-navbar-interactive {
               flex-direction: row;
@@ -353,6 +356,9 @@ const Header = (props) => {
               background-color: var(--dl-color-primary-yellow);
             }
             .header-root-class-name5 {
+              background-color: var(--dl-color-gray-white);
+            }
+            .header-root-class-name6 {
               background-color: var(--dl-color-gray-white);
             }
           }
@@ -459,6 +465,9 @@ const Header = (props) => {
               background-color: #ffffff;
             }
             .header-root-class-name5 {
+              max-width: 100%;
+            }
+            .header-root-class-name6 {
               max-width: 100%;
             }
           }
