@@ -86,57 +86,45 @@ const Card = (props) => {
           }
           .card-root-class-name {
             right: -246px;
-            width: 100%;
             bottom: -32px;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name1 {
             top: 1px;
             left: 17px;
-            width: 100%;
+            width: auto;
             position: static;
-            max-width: auto;
             min-width: auto;
-            max-height: 100%;
           }
           .card-root-class-name2 {
             top: 1px;
             left: 721px;
-            width: 100%;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name3 {
             left: 1072px;
-            width: 100%;
             bottom: -27px;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name4 {
             top: -2px;
             right: 118px;
-            width: 100%;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name5 {
             top: -3px;
             right: -231px;
-            width: 100%;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name6 {
             top: 1px;
@@ -281,56 +269,174 @@ const Card = (props) => {
           .card-root-class-name25 {
             top: 1px;
             left: 17px;
-            width: 100%;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: 100%;
-          }
-          .card-root-class-name26 {
-            right: -246px;
-            width: 100%;
-            bottom: -32px;
-            position: static;
-            max-width: auto;
-            min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name27 {
             top: 1px;
             left: 721px;
-            width: 100%;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name28 {
             left: 1072px;
-            width: 100%;
             bottom: -27px;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
           }
           .card-root-class-name29 {
             top: -2px;
             right: 118px;
-            width: 100%;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
+          }
+          .card-root-class-name31 {
+            top: 1px;
+            left: 17px;
+            position: static;
+            max-width: auto;
+          }
+          .card-root-class-name32 {
+            top: 1px;
+            right: -294px;
+            position: static;
+          }
+          .card-root-class-name33 {
+            top: 1px;
+            right: 84px;
+            position: static;
+          }
+          .card-root-class-name34 {
+            top: 1px;
+            right: 462px;
+            position: static;
+          }
+          .card-root-class-name35 {
+            top: 1px;
+            left: 773px;
+            position: static;
+          }
+          .card-root-class-name36 {
+            top: 1px;
+            left: 395px;
+            position: static;
+          }
+          .card-root-class-name26 {
+            right: -246px;
+            bottom: -32px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
           }
           .card-root-class-name30 {
             top: -3px;
             right: -231px;
-            width: 100%;
             position: static;
             max-width: auto;
             min-width: auto;
-            max-height: auto;
+          }
+          .card-root-class-name37 {
+            right: -246px;
+            width: 30vh;
+            bottom: -32px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name38 {
+            top: 1px;
+            left: 17px;
+            position: static;
+            min-width: auto;
+            max-height: 60vh;
+          }
+          .card-root-class-name39 {
+            top: 1px;
+            left: 721px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name40 {
+            left: 1072px;
+            bottom: -27px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name41 {
+            top: -2px;
+            right: 118px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name42 {
+            top: -3px;
+            right: -231px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name43 {
+            top: 1px;
+            left: 17px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name44 {
+            right: -246px;
+            bottom: -32px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name45 {
+            top: 1px;
+            left: 721px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name46 {
+            left: 1072px;
+            bottom: -27px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name47 {
+            top: -2px;
+            right: 118px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name48 {
+            top: -3px;
+            right: -231px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name49 {
+            left: 1072px;
+            bottom: -27px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
+          }
+          .card-root-class-name50 {
+            top: -3px;
+            right: -231px;
+            position: static;
+            max-width: auto;
+            min-width: auto;
           }
           @media (max-width: 1200px) {
             .card-card {
@@ -467,12 +573,6 @@ const Card = (props) => {
               margin-left: auto;
               margin-right: auto;
             }
-            .card-root-class-name26 {
-              max-width: auto;
-              min-width: auto;
-              margin-left: auto;
-              margin-right: auto;
-            }
             .card-root-class-name27 {
               max-width: auto;
               margin-left: auto;
@@ -488,7 +588,115 @@ const Card = (props) => {
               margin-left: auto;
               margin-right: auto;
             }
+            .card-root-class-name31 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name32 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name33 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name34 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name35 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name36 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name26 {
+              max-width: auto;
+              min-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
             .card-root-class-name30 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name37 {
+              max-width: auto;
+              min-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name38 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name39 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name40 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name41 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name42 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name43 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name44 {
+              max-width: auto;
+              min-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name45 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name46 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name47 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name48 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name49 {
+              max-width: auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .card-root-class-name50 {
               max-width: auto;
               margin-left: auto;
               margin-right: auto;
@@ -573,7 +781,61 @@ const Card = (props) => {
             .card-root-class-name29 {
               max-width: auto;
             }
+            .card-root-class-name31 {
+              max-width: auto;
+            }
+            .card-root-class-name32 {
+              max-width: auto;
+            }
+            .card-root-class-name33 {
+              max-width: auto;
+            }
+            .card-root-class-name34 {
+              max-width: auto;
+            }
+            .card-root-class-name35 {
+              max-width: auto;
+            }
+            .card-root-class-name36 {
+              max-width: auto;
+            }
             .card-root-class-name30 {
+              max-width: auto;
+            }
+            .card-root-class-name38 {
+              max-width: auto;
+            }
+            .card-root-class-name39 {
+              max-width: auto;
+            }
+            .card-root-class-name40 {
+              max-width: auto;
+            }
+            .card-root-class-name41 {
+              max-width: auto;
+            }
+            .card-root-class-name42 {
+              max-width: auto;
+            }
+            .card-root-class-name43 {
+              max-width: auto;
+            }
+            .card-root-class-name45 {
+              max-width: auto;
+            }
+            .card-root-class-name46 {
+              max-width: auto;
+            }
+            .card-root-class-name47 {
+              max-width: auto;
+            }
+            .card-root-class-name48 {
+              max-width: auto;
+            }
+            .card-root-class-name49 {
+              max-width: auto;
+            }
+            .card-root-class-name50 {
               max-width: auto;
             }
           }
@@ -681,9 +943,6 @@ const Card = (props) => {
             .card-root-class-name25 {
               min-width: auto;
             }
-            .card-root-class-name26 {
-              min-width: auto;
-            }
             .card-root-class-name27 {
               min-width: auto;
             }
@@ -693,7 +952,94 @@ const Card = (props) => {
             .card-root-class-name29 {
               min-width: auto;
             }
+            .card-root-class-name31 {
+              width: 100%;
+              max-width: 300px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .card-root-class-name32 {
+              width: 100%;
+              max-width: 300px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .card-root-class-name33 {
+              width: 100%;
+              max-width: 300px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .card-root-class-name34 {
+              width: 100%;
+              max-width: 300px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .card-root-class-name35 {
+              width: 100%;
+              max-width: 300px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .card-root-class-name36 {
+              width: 100%;
+              max-width: 300px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .card-root-class-name26 {
+              min-width: auto;
+            }
             .card-root-class-name30 {
+              min-width: auto;
+            }
+            .card-root-class-name37 {
+              min-width: auto;
+            }
+            .card-root-class-name38 {
+              min-width: auto;
+            }
+            .card-root-class-name39 {
+              min-width: auto;
+            }
+            .card-root-class-name40 {
+              min-width: auto;
+            }
+            .card-root-class-name41 {
+              min-width: auto;
+            }
+            .card-root-class-name42 {
+              min-width: auto;
+            }
+            .card-root-class-name43 {
+              min-width: auto;
+            }
+            .card-root-class-name44 {
+              min-width: auto;
+            }
+            .card-root-class-name45 {
+              min-width: auto;
+            }
+            .card-root-class-name46 {
+              min-width: auto;
+            }
+            .card-root-class-name47 {
+              min-width: auto;
+            }
+            .card-root-class-name48 {
+              min-width: auto;
+            }
+            .card-root-class-name49 {
+              min-width: auto;
+            }
+            .card-root-class-name50 {
               min-width: auto;
             }
           }

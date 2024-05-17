@@ -1002,7 +1002,7 @@ const Home = (props) => {
           }
           @media (max-width: 1600px) {
             .home-text {
-              font-size: 4.5em;
+              font-size: 3em;
             }
             .home-image4 {
               margin-right: var(--dl-space-space-unit);
@@ -1050,7 +1050,7 @@ const Home = (props) => {
           }
           @media (max-width: 1200px) {
             .home-text {
-              font-size: 4.5em;
+              font-size: 3em;
             }
             .home-image3 {
               height: auto;
@@ -1198,7 +1198,7 @@ const Home = (props) => {
             }
             .home-text {
               width: 80%;
-              font-size: 3em;
+              font-size: 2.5em;
               align-self: center;
             }
             .home-gallery1 {
@@ -1308,7 +1308,7 @@ const Home = (props) => {
             }
             .home-text {
               width: 100%;
-              font-size: 3em;
+              font-size: 2.3em;
               align-self: center;
             }
             .home-text05 {

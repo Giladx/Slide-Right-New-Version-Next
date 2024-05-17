@@ -9,7 +9,7 @@ const Corosel = (props) => {
   return (
     <>
       <div id="carousel" className={`corosel-corosel ${props.rootClassName} `}>
-        <div>
+        <div className="corosel-container">
           <div className="corosel-container1">
             <Script
               html={`<style>
@@ -63,6 +63,15 @@ slider.addEventListener('mousemove', (e) => {
           </div>
         </div>
         <div className="corosel-splidetrack">
+          <a href="https://slide-right.com/data-page/#sliding.glass.door.repair">
+            <Card
+              button="Repair"
+              button1="Sliding Glass Door Repair"
+              imageSrc="https://images.unsplash.com/photo-1525570665650-76bb26af503d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3NDMxNzAwNw&amp;ixlib=rb-4.0.3&amp;h=200"
+              rootClassName="card-root-class-name"
+              className="corosel-card-2"
+            ></Card>
+          </a>
           <ul className="scrollmenu list corosel-ul">
             <li className="corosel-li list-item item">
               <a href="https://slide-right.com/data-page/#free.estimate">
@@ -74,17 +83,7 @@ slider.addEventListener('mousemove', (e) => {
                 ></Card>
               </a>
             </li>
-            <li className="corosel-li01 list-item item">
-              <a href="https://slide-right.com/data-page/#sliding.glass.door.repair">
-                <Card
-                  button="Repair"
-                  button1="Sliding Glass Door Repair"
-                  imageSrc="https://images.unsplash.com/photo-1525570665650-76bb26af503d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3NDMxNzAwNw&amp;ixlib=rb-4.0.3&amp;h=200"
-                  rootClassName="card-root-class-name"
-                  className="corosel-card-2"
-                ></Card>
-              </a>
-            </li>
+            <li className="corosel-li01 list-item item"></li>
             <li className="corosel-li02 list-item item">
               <a href="https://slide-right.com/data-page/#sliding.glass.door.track.repair">
                 <Card
@@ -179,8 +178,7 @@ slider.addEventListener('mousemove', (e) => {
                   button="Replacement"
                   button1="Door Handle Repair / Replacement"
                   imageSrc="https://images.unsplash.com/photo-1619436014242-58f72c5c4c19?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI1Nnx8c2xpZGluZyUyMGRvb3J8ZW58MHx8fHwxNjc0MzE5MDU1&amp;ixlib=rb-4.0.3&amp;h=200"
-                  rootClassName="card-root-class-name29"
-                  className="corosel-card-11"
+                  rootClassName="rootClassName29"
                 ></Card>
               </a>
             </li>
@@ -197,18 +195,166 @@ slider.addEventListener('mousemove', (e) => {
             </li>
           </ul>
         </div>
+        <div
+          data-thq="slider"
+          data-pagination="true"
+          data-navigation="true"
+          data-autoplay="true"
+          data-loop="true"
+          data-pause-autoplay-on-mouse-enter="true"
+          className="corosel-slider swiper"
+        >
+          <div data-thq="slider-wrapper" className="swiper-wrapper">
+            <div
+              data-thq="slider-slide"
+              className="corosel-slider-slide swiper-slide"
+            >
+              <Card
+                button1="Free Estimate"
+                imageSrc="https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3NDMxNzAwNw&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-card-root-class-name38"
+                className="corosel-card-11 corosel-card-11"
+              ></Card>
+              <Card
+                button="Repair"
+                button1="Sliding Glass Door Repair"
+                imageSrc="https://images.unsplash.com/photo-1525570665650-76bb26af503d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3NDMxNzAwNw&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name37"
+                className="corosel-card-21"
+              ></Card>
+              <Card
+                button="Repair"
+                button1="Sliding Glass Door Track Repair"
+                imageSrc="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHNsaWRpbmclMjBkb29yfGVufDB8fHx8MTY3NDMxNzAwNw&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name39"
+                className="corosel-card-31"
+              ></Card>
+              <Card
+                button="Repair"
+                button1="Door Handle Repair / Replacement"
+                imageSrc="https://images.unsplash.com/photo-1580953546435-96ba8e1415da?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzQzMTcwMDc&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name40"
+                className="corosel-card-41"
+              ></Card>
+              <Card
+                button="Replacement"
+                button1="Sliding Glass Door Replacement"
+                imageSrc="https://images.unsplash.com/photo-1501117716987-c8c394bb29df?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM5fHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzQzMTcwNjU&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name41"
+                className="corosel-card-51"
+              ></Card>
+              <Card
+                button="Replacement"
+                button1="Glass Replacement"
+                imageSrc="https://images.unsplash.com/photo-1600849201385-980094c9037a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMwfHxnbGFzcyUyMGRvb3J8ZW58MHx8fHwxNjc0MTIxOTM2&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name42"
+                className="corosel-card-61"
+              ></Card>
+              <Card
+                button="Technicians"
+                button1="Certified Technicians"
+                imageSrc="https://images.unsplash.com/photo-1627899093722-e8ad13e6d1c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDU4fHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzQzMTcxMDA&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name43"
+                className="corosel-card-71"
+              ></Card>
+              <Card
+                button="Replacement"
+                button1="Rollers Replacement"
+                imageSrc="https://images.unsplash.com/photo-1562494512-f47c102f13d4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDg5fHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzQzMTg4Mjk&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name44"
+                className="corosel-card-81"
+              ></Card>
+              <Card
+                button="Repair"
+                button1="Sliding Screen Door Repair"
+                imageSrc="https://images.unsplash.com/photo-1554355646-88098c10018a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDgzfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzQzMTg4Mjk&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name45"
+                className="corosel-card-91"
+              ></Card>
+              <Card
+                button="Replacement"
+                button1="Glass Replacement"
+                imageSrc="https://images.unsplash.com/photo-1576152793788-1e96e8074ac4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyM3x8c2xpZGluZyUyMGRvb3J8ZW58MHx8fHwxNjc0MzE5MDI0&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name46"
+                className="corosel-card-101"
+              ></Card>
+              <Card
+                button="Replacement"
+                button1="Door Handle Repair / Replacement"
+                imageSrc="https://images.unsplash.com/photo-1619436014242-58f72c5c4c19?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI1Nnx8c2xpZGluZyUyMGRvb3J8ZW58MHx8fHwxNjc0MzE5MDU1&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name47"
+                className="corosel-card-111"
+              ></Card>
+              <Card
+                button="Repair"
+                button1="Sliding Glass Door Repair"
+                imageSrc="https://images.unsplash.com/photo-1635540635634-ea338d99b96e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI2Mnx8c2xpZGluZyUyMGRvb3J8ZW58MHx8fHwxNjc0MzE5MDU1&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name48"
+                className="corosel-card-121"
+              ></Card>
+              <Card
+                button="Repair"
+                button1="Door Handle Repair / Replacement"
+                imageSrc="https://images.unsplash.com/photo-1580953546435-96ba8e1415da?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE2NzQzMTcwMDc&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name49"
+                className="corosel-card-42"
+              ></Card>
+              <Card
+                button="Replacement"
+                button1="Glass Replacement"
+                imageSrc="https://images.unsplash.com/photo-1600849201385-980094c9037a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMwfHxnbGFzcyUyMGRvb3J8ZW58MHx8fHwxNjc0MTIxOTM2&amp;ixlib=rb-4.0.3&amp;h=200"
+                rootClassName="card-root-class-name50"
+                className="corosel-card-62"
+              ></Card>
+            </div>
+            <div
+              data-thq="slider-slide"
+              className="corosel-slider-slide1 swiper-slide"
+            ></div>
+          </div>
+          <div
+            data-thq="slider-pagination"
+            className="corosel-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+          >
+            <div
+              data-thq="slider-pagination-bullet"
+              className="swiper-pagination-bullet swiper-pagination-bullet-active"
+            ></div>
+            <div
+              data-thq="slider-pagination-bullet"
+              className="swiper-pagination-bullet"
+            ></div>
+          </div>
+          <div
+            data-thq="slider-button-prev"
+            className="swiper-button-prev"
+          ></div>
+          <div
+            data-thq="slider-button-next"
+            className="swiper-button-next"
+          ></div>
+        </div>
       </div>
       <style jsx>
         {`
           .corosel-corosel {
+            width: 100%;
             white-space: nowrap;
+          }
+          .corosel-container {
+            display: none;
           }
           .corosel-container1 {
             display: contents;
           }
           .corosel-splidetrack {
+            width: 100%;
+            display: none;
             overflow: hidden;
             position: relative;
+          }
+          .corosel-card-2 {
+            text-decoration: none;
           }
           .corosel-li {
             width: auto;
@@ -218,9 +364,6 @@ slider.addEventListener('mousemove', (e) => {
           }
           .corosel-li01 {
             width: auto;
-          }
-          .corosel-card-2 {
-            text-decoration: none;
           }
           .corosel-li02 {
             width: auto;
@@ -281,6 +424,62 @@ slider.addEventListener('mousemove', (e) => {
           }
           .corosel-card-12 {
             text-decoration: none;
+          }
+          .corosel-slider {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+          }
+          .corosel-slider-slide {
+            display: flex;
+          }
+          .corosel-card-11 {
+            text-decoration: none;
+          }
+          .corosel-card-21 {
+            text-decoration: none;
+          }
+          .corosel-card-31 {
+            text-decoration: none;
+          }
+          .corosel-card-41 {
+            text-decoration: none;
+          }
+          .corosel-card-51 {
+            text-decoration: none;
+          }
+          .corosel-card-61 {
+            text-decoration: none;
+          }
+          .corosel-card-71 {
+            text-decoration: none;
+          }
+          .corosel-card-81 {
+            text-decoration: none;
+          }
+          .corosel-card-91 {
+            text-decoration: none;
+          }
+          .corosel-card-101 {
+            text-decoration: none;
+          }
+          .corosel-card-111 {
+            text-decoration: none;
+          }
+          .corosel-card-121 {
+            text-decoration: none;
+          }
+          .corosel-card-42 {
+            text-decoration: none;
+          }
+          .corosel-card-62 {
+            text-decoration: none;
+          }
+          .corosel-slider-slide1 {
+            display: flex;
+          }
+          .corosel-slider-pagination {
+            display: block;
           }
 
           .corosel-root-class-name2 {
@@ -383,10 +582,21 @@ slider.addEventListener('mousemove', (e) => {
 
 Corosel.defaultProps = {
   rootClassName: '',
+  rootClassName1: '',
+  imageAlt: 'image',
+  imageSrc:
+    'https://images.unsplash.com/photo-1517984922331-8dbaa8ffa9c1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI4fHxmcmVlfGVufDB8fHx8MTY3MzczMzkyMQ&ixlib=rb-4.0.3&w=200',
+  button: 'Free',
+  button1: 'Door Handle Repair / Replacement',
 }
 
 Corosel.propTypes = {
   rootClassName: PropTypes.string,
+  rootClassName1: PropTypes.string,
+  imageAlt: PropTypes.string,
+  imageSrc: PropTypes.string,
+  button: PropTypes.string,
+  button1: PropTypes.string,
 }
 
 export default Corosel
