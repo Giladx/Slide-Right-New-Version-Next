@@ -200,7 +200,7 @@ slider.addEventListener('mousemove', (e) => {
           data-pagination="true"
           data-navigation="true"
           data-autoplay="true"
-          data-loop="true"
+          data-loop="false"
           data-pause-autoplay-on-mouse-enter="true"
           className="corosel-slider swiper"
         >
